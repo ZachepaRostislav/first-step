@@ -1,7 +1,7 @@
 .main {
   display: flex;  
   
-  .left-side-bar {
+  .leftBar {
     background-color: cadetblue;
     min-width: 220px;
   }
@@ -24,7 +24,7 @@
     }
   }
 
-  .right-side-bar {
+  .rightBar {
     background-color: indianred;
     min-width: 120px;
   }

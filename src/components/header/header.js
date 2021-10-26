@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
 
 // styles
-import './header-styles.scss';
+import style from './header.module.scss';
 
 export default class Header extends Component {
 
   render() {
     return (
-      <header className='header'>
-        <nav className='navigation'>
-          <a href="#">First Page</a>
-          <a href="#">Second Page</a>
-          <a href="#">Third Page</a>
-          <a href="#">Fourth Page</a>
+      <header className={style.header}>
+        <nav className={style.navigation}>
+          <a className={style.link} href="#">First Page</a>
+          <a className={style.link} href="#">Second Page</a>
+          <a className={style.link} href="#">Third Page</a>
+          <a className={style.link} href="#">Fourth Page</a>
         </nav>
-      </header>
+      </header>      
     )
   }
 }

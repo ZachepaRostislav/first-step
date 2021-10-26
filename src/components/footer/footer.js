@@ -1,19 +1,29 @@
 import React, { Component } from 'react';
 
 // styles
-import './footer-styles.scss';
+import style from './footer.module.scss';
 
 export default class Footer extends Component {
   render() {
     return (
       <>
-        <footer className="footer">
-          <ul className="footer-list">
-            <li><a href="#"> tel</a></li>
-            <li><a href="#">email</a></li>
-            <li><a href="#">skype</a></li>
-            <li><a href="#">istagram</a></li>
-            <li><a href="#">facebook</a></li>
+        <footer className={style.footer}>
+          <ul className={style.footer_list}>
+            <li className={style.footer_list_item}>
+              <a className={style.footer_list_item_link} href="#"> tel</a>
+            </li>
+            <li className={style.footer_list_item}>
+              <a className={style.footer_list_item_link} href="#">email</a>
+            </li>
+            <li className={style.footer_list_item}>
+              <a className={style.footer_list_item_link} href="#">skype</a>
+            </li>
+            <li className={style.footer_list_item}>
+              <a className={style.footer_list_item_link} href="#">istagram</a>
+            </li>
+            <li className={style.footer_list_item}>
+              <a className={style.footer_list_item_link} href="#">facebook</a>
+            </li>
           </ul>
         </footer>
       </>

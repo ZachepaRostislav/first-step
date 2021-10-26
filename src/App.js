@@ -9,7 +9,8 @@ import Footer from './components/footer';
 import './App.scss';
 
 export default class App extends Component {
-  render() {
+  
+  render() {      
     return (
       <>
         <Header />
